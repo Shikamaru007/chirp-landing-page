@@ -3,4 +3,93 @@
     margin: 0;
     box-sizing: border-box;
 }
+html {
+    font-size: 18px;    
+}
+body {
+    font-family: inter, sans-serif;
+    line-height: 1.7;
+    color: rgba(73, 73, 73, 0.846);
+}
+h1 {
+    font-size: 3.8rem;
+    color: rgb(21, 21, 21);
+}
+h2 {
+    font-size: 3rem;
+    color: rgb(21, 21, 21);
+}
+h3 {
+    font-size: 2.4rem;
+    color: rgb(21, 21, 21);
+}
+h4 {
+    font-size: 1.9rem;
+    color: rgb(21, 21, 21);
+}
+.left-hero span {
+    color: rgb(8, 108, 170);
+    font-weight: 700;
+}
+.user {
+    font-weight: 800;
+    color: rgb(21, 21, 21);
+}
+.card span {
+    font-size: smaller;
+}
+.large {
+    font-size: larger;
+}
+.large span {
+    font-weight: 800;
+    font-size: 2.5em;
+    color: rgb(21, 21, 21);
+}
+footer span {
+    color: rgb(21, 21, 21);
+}
+.btn {
+    background-color: rgb(34, 153, 226);
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    padding: .7em 1.8em .7em 1.6em;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 5px;   
+    gap: .5em;    
+}
+#hero-btn-2 {
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(8, 108, 170);
+    align-items: center;
+    display: inline-flex;
+    gap: .5em;
+}
+#price-btn {
+   width: 100%;
+   justify-content: center;
+}
+svg {
+    width: 1em;
+    fill: rgb(8, 108, 170);   
+}
+.logo {
+    font-weight: 900;
+    font-size: 2rem;
+    color: rgb(34, 153, 226);
+    font-style: italic;
+}
+.hero-users :not(:first-child) {
+    margin-left: -25px;
+}
+.feat-img {
+    width: 3em;
+}
+.feat-img img {
+    width: 100%;
+}
+
 
