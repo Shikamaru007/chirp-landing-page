@@ -252,4 +252,105 @@ footer .right-foot {
     display: flex;
     gap: 2em;
 }
+.phone-nav {
+    display: none;
+}
 
+
+@media  screen and (max-width:650px) {
+    #top-btn {
+        display: none;
+    }
+    .container {
+        width: 95%;
+        padding: 1rem;
+    }
+    .right-nav ul {
+        display: none;
+    }
+    .phone-nav {
+        display: flex;
+        width: 2rem;        
+    }
+    .phone-nav img {
+        width: 100%;
+    }
+    nav {
+        align-items: center;
+    }
+    .hero-content {
+        grid-template-columns: 1fr;
+    }
+    .right-hero {
+        order: calc(-1);
+    }
+    h1 {
+        font-size: 2.3rem;
+        line-height: 1.2;
+    }
+    h2 {
+        font-size: 2rem;       
+        line-height: 1.2;         
+    }
+    h3 {
+        font-size: 2.3rem;
+        line-height: 1.2;
+    }
+    .btn {
+        margin: 0 auto;
+   }
+   #hero-btn {
+    width: 100%;
+    justify-content: center;
+    padding: 1rem;
+   }
+    #hero-btn-2 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 1rem;
+        gap: 1rem;
+    }
+    .left-hero p {
+        margin: 1em 0 1.5em 0;
+        max-width: 100%;
+    }
+    .hero-users {
+        margin: 1rem auto;
+    }  
+    .feature-head {
+        width: 100%;
+    }
+    .feature-content {
+        grid-template-columns: 1fr;
+    }
+    .feature {
+        padding: 2.5rem 2rem;
+    }
+    .customer-content {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    .card {
+        padding: 2.5rem;
+    }
+    .container.small {
+        width: 98%;
+    }
+    .price-head {
+        width: 95%;
+        margin: auto;
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+    .price-content {
+        width: 100%;
+        padding: 2.5rem
+    }
+    footer .container {
+        display: block;
+    }
+    footer .container .logo {
+       margin-bottom: 1rem;
+    }
+}
