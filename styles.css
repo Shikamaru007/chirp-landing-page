@@ -261,7 +261,7 @@ footer .right-foot {
 
 
 
-@media screen and (max-width:769px) {
+@media screen and (max-width:821px) {
     html {
         font-size: 18px;   
     }
@@ -336,7 +336,7 @@ footer .right-foot {
 }
 
 
-@media  screen and (max-width:620px) {
+@media  screen and (max-width:680px) {
     html {
         font-size: 16px;
     }
@@ -363,6 +363,12 @@ footer .right-foot {
     }
     .hero-content {
         grid-template-columns: 1fr;
+    }
+    .right-hero img {
+        display: block;
+    }
+    #img-2 {
+        display: none;
     }
     .right-hero {
         order: calc(-1);
