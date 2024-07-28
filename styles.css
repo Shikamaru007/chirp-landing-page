@@ -143,6 +143,9 @@ svg {
 .right-hero img {
     width: 100%;
 }
+#img-2 {
+    display: none;
+}
 .feature-head {
     width: 50%;
 }
@@ -257,10 +260,90 @@ footer .right-foot {
 }
 
 
-@media  screen and (max-width:650px) {
+
+@media screen and (max-width:769px) {
+    html {
+        font-size: 18px;   
+    }
+    h1 {
+        font-size: 3rem;
+        margin: 0;
+    }
+    h2 {
+        font-size: 2.2rem;
+        margin: 0 0 1.2rem auto;
+    }
+    h3 {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+        
+    h4 {
+        font-size: 1.1rem;
+    }
+    .container {
+        width: 90%;
+    }
+    .hero-content {
+        grid-template-columns: 1fr;
+        width: 100%;
+        gap: 1.2rem;
+        
+    }
+    .left-hero {
+        width: 100%;
+        
+    }
+    .left-hero p {
+        width: 100%;
+        max-width: 100%;
+        margin: .5rem auto 1rem 0;
+        
+    }
+    .right-hero {
+        order: calc(-1);
+    }
+    .right-hero img {
+        display: none;
+    }
+    #img-2 {
+        display: block;
+    }
+    .feature {
+        padding: 1rem;
+    }
+    .feature-content {
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+        margin-bottom: 1rem;
+    }
+    .feature-head {
+        width: 80%;
+    }
+    .customer-content {
+        gap: 1.5rem;
+    }
+    .card {
+        padding: 1.5rem;
+    }
+    .container.small {
+        width: 80%;
+    }
+    .price-content li {
+        margin: 1rem 0;
+    }
+
+}
+
+
+@media  screen and (max-width:620px) {
+    html {
+        font-size: 16px;
+    }
     #top-btn {
         display: none;
     }
+
     .container {
         width: 95%;
         padding: 1rem;
@@ -285,16 +368,20 @@ footer .right-foot {
         order: calc(-1);
     }
     h1 {
-        font-size: 2.3rem;
+        font-size: 2.5rem;
         line-height: 1.2;
     }
     h2 {
-        font-size: 2rem;       
+        font-size: 1.8rem;       
         line-height: 1.2;         
     }
     h3 {
         font-size: 2.3rem;
         line-height: 1.2;
+        margin-bottom: 2rem;
+    }
+    h4 {
+        font-size: 1.2rem;
     }
     .btn {
         margin: 0 auto;
@@ -330,10 +417,12 @@ footer .right-foot {
     .customer-content {
         grid-template-columns: 1fr;
         gap: 1.5rem;
+        
     }
     .card {
         padding: 2.5rem;
     }
+    
     .container.small {
         width: 98%;
     }
