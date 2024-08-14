@@ -127,6 +127,24 @@ svg {
 .hero-nav ul a {
     text-decoration: none;
     color: inherit;
+    position: relative;
+}
+.hero-nav ul a::before {
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: rgb(8, 108, 170);
+    position: absolute;
+    left: 0;
+    border-radius: 5px;
+    bottom: -1px;    
+    transition: width .2s ease;
+}
+.hero-nav ul a:hover::before{
+    width: 100%;
+}
+.hero-nav ul a:hover {
+    color: rgb(21, 21, 21);
 }
 .hero-content {
     display: grid;
